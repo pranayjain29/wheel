@@ -1,5 +1,5 @@
 {
-  "dependencies": {
-    "@supabase/supabase-js": "^2.49.1"
-  }
+  "name": "spin-wheel-app",
+  "private": true,
+  "version": "1.0.0"
 }
