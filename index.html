@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sign In</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Spin the Wheel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="signin-form">
-        <input type="text" id="phone" placeholder="Enter your phone number" required>
-        <button type="submit">Sign In</button>
-    </form>
-    
-    <!-- <script src="/js/supabase.js" type="module"></script> -->
-    <script src="/js/main.js" type="module"></script>
-    
+    <h1>Spin the Wheel</h1>
+    <div id="pointer"></div>
+    <div id="wheel"></div>
+    <button id="spin-button">Spin</button>
+    <div id="reward" style="display:none;">
+        <h2>Congratulations! You won: <span id="reward-text"></span></h2>
+    </div>
+
+    <script src="js/main.js" type="module"></script>
 </body>
 </html>
